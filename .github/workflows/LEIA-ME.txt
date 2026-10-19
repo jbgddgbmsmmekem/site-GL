@@ -1,0 +1,11 @@
+HUMAITÁ 1 — CORRIDA DE MOEDAS
+
+Você controla um menino correndo por uma pista futurista. Mude de faixa para desviar das paredes vermelhas e pegar moedas.
+
+Arquivos:
+- index.html: estrutura do jogo
+- style.css: visual gamer futurista azul e roxo
+- script.js: controles, personagem, moedas e obstáculos
+
+TESTAR:
+Abra index.html no navegador. Para publicar gratuitamente, envie os três arquivos para a raiz de um repositório público no GitHub e ative GitHub Pages em Settings > Pages > Deploy from a branch > main > /(root) > Save.
