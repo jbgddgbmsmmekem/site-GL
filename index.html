@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#080b20">
+  <title>Humaitá 1 — Caça às Moedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✦</span><div><p class="eyebrow">ARCADE FUTURISTA</p><h1>HUMAITÁ <span>1</span></h1></div></div>
+      <div class="best">RECORDE <strong id="best">0</strong></div>
+    </header>
+
+    <section class="hud" aria-label="Placar">
+      <div class="stat"><span>MOEDAS</span><strong id="coins">0</strong></div>
+      <div class="stat"><span>PONTOS</span><strong id="score">0</strong></div>
+      <div class="stat"><span>VELOCIDADE</span><strong id="speed">1x</strong></div>
+    </section>
+
+    <section class="stage-wrap">
+      <canvas id="game" aria-label="Área do jogo"></canvas>
+      <div id="overlay" class="overlay">
+        <div class="panel">
+          <div class="orb">✦</div>
+          <p class="eyebrow">MISSÃO INICIADA</p>
+          <h2 id="overlay-title">PEGUE AS<br><span>MOEDAS!</span></h2>
+          <p id="overlay-text">Controle o menino, desvie das paredes vermelhas e pegue moedas brilhantes. Quanto mais correr, mais rápido fica!</p>
+          <button id="start">JOGAR AGORA ▶</button>
+          <small>CONTROLES: ◀ ESQUERDA · DIREITA ▶</small>
+        </div>
+      </div>
+    </section>
+
+    <nav class="controls" aria-label="Controles do jogo">
+      <button class="move" id="left" aria-label="Mover para esquerda">◀</button>
+      <button class="pause" id="pause">Ⅱ PAUSAR</button>
+      <button class="move" id="right" aria-label="Mover para direita">▶</button>
+    </nav>
+    <p class="hint">DICA: também pode tocar no lado esquerdo ou direito da pista.</p>
+    <footer>HUMAITÁ 1 <span>•</span> FEITO PARA JOGAR NO CELULAR</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
